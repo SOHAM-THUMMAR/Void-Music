@@ -1,0 +1,5 @@
+Background: #1C1C1C (Charcoal Black)
+Text: #F5F5F5 (Off-white) for readability
+Buttons & Highlights: #DC143C  (Crimson Red)
+Cards & Containers: #800020 (Deep Maroon)
+Borders & Shadows: #2C2C2C (Gunmetal Gray)

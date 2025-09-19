@@ -1,0 +1,120 @@
+2025-04-19 09:01:06 - Request received
+2025-04-19 09:01:06 - POST: Array
+(
+    [song_id] => 1
+    [song_type] => test
+)
+
+2025-04-19 09:01:06 - SESSION: Array
+(
+    [user_id] => 5
+    [email] => sohamthummar04@gmail.com
+)
+
+2025-04-19 09:01:06 - User ID: 5
+2025-04-19 09:01:06 - Song ID: 1, Type: test
+2025-04-19 09:01:06 - Already liked: No
+2025-04-19 09:01:06 - Success: Array
+(
+    [status] => liked
+    [message] => Song liked successfully
+)
+
+2025-04-19 09:01:06 - Sending response: Array
+(
+    [status] => liked
+    [message] => Song liked successfully
+)
+
+2025-04-19 09:01:28 - Request received
+2025-04-19 09:01:28 - POST: Array
+(
+    [song_id] => 2
+    [song_type] => test
+)
+
+2025-04-19 09:01:28 - SESSION: Array
+(
+    [user_id] => 5
+    [email] => sohamthummar04@gmail.com
+)
+
+2025-04-19 09:01:28 - User ID: 5
+2025-04-19 09:01:28 - Song ID: 2, Type: test
+2025-04-19 09:01:28 - Already liked: No
+2025-04-19 09:01:28 - Success: Array
+(
+    [status] => liked
+    [message] => Song liked successfully
+)
+
+2025-04-19 09:01:28 - Sending response: Array
+(
+    [status] => liked
+    [message] => Song liked successfully
+)
+
+2025-04-19 09:01:28 - Request received
+2025-04-19 09:01:28 - POST: Array
+(
+    [song_id] => 2
+    [song_type] => test
+)
+
+2025-04-19 09:01:28 - SESSION: Array
+(
+    [user_id] => 5
+    [email] => sohamthummar04@gmail.com
+)
+
+2025-04-19 09:01:28 - User ID: 5
+2025-04-19 09:01:28 - Song ID: 2, Type: test
+2025-04-19 09:01:28 - Already liked: No
+2025-04-19 09:01:28 - Request received
+2025-04-19 09:01:28 - POST: Array
+(
+    [song_id] => 2
+    [song_type] => test
+)
+
+2025-04-19 09:01:28 - SESSION: Array
+(
+    [user_id] => 5
+    [email] => sohamthummar04@gmail.com
+)
+
+2025-04-19 09:01:28 - User ID: 5
+2025-04-19 09:01:28 - Song ID: 2, Type: test
+2025-04-19 09:01:28 - Already liked: No
+2025-04-19 09:01:29 - Request received
+2025-04-19 09:01:29 - POST: Array
+(
+    [song_id] => 1
+    [song_type] => test
+)
+
+2025-04-19 09:01:29 - SESSION: Array
+(
+    [user_id] => 5
+    [email] => sohamthummar04@gmail.com
+)
+
+2025-04-19 09:01:29 - User ID: 5
+2025-04-19 09:01:29 - Song ID: 1, Type: test
+2025-04-19 09:01:29 - Already liked: No
+2025-04-19 09:01:29 - Request received
+2025-04-19 09:01:29 - POST: Array
+(
+    [song_id] => 2
+    [song_type] => test
+)
+
+2025-04-19 09:01:29 - SESSION: Array
+(
+    [user_id] => 5
+    [email] => sohamthummar04@gmail.com
+)
+
+2025-04-19 09:01:29 - User ID: 5
+2025-04-19 09:01:29 - Song ID: 2, Type: test
+2025-04-19 09:01:29 - Already liked: No
