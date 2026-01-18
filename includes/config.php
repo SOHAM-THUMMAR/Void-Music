@@ -1,18 +1,18 @@
 <?php
-$host = 'localhost';
-$username = 'root';
-$password = '';
-$dbname = 'spot';
 
-$con = new mysqli($host,$username,$password,$dbname);
+$host = getenv("DB_HOST");
+$username = getenv("DB_USER");
+$password = getenv("DB_PASS");
+$dbname = getenv("DB_NAME");
+$port = getenv("DB_PORT");
 
-if($con -> connect_error)
-{
-	die("connection failed".$con->connect_error);
+$con = new mysqli($host, $username, $password, $dbname, $port);
+
+if ($con->connect_error) {
+    die("Connection failed: " . $con->connect_error);
 }
-else
-	{
-	//echo "connected successfully <br>";
-}
+
+// optional charset for safety
+$con->set_charset("utf8mb4");
 
 ?>
