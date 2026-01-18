@@ -78,23 +78,3 @@ Navigate to http://localhost/Void-Music in your browser
 
 📝 Notes
 This project was built as a semester or learning project to explore full-stack web development using PHP and MySQL.
-GitHub
-
-📜 License
-This repository does not include a specific license. Feel free to add a LICENSE file to specify usage terms.
-
-👨‍💻 Author
-Soham Thummar
-
-yaml
-Copy code
-
----
-
-If you want, I can also:
-- Add **demo screenshots**
-- Include a **live demo link**
-- Generate a **feature checklist section**
-
-Just let me know!
-::contentReference[oaicite:4]{index=4}
