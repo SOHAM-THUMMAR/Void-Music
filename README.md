@@ -1,80 +1,109 @@
-# Void-Music
+# Void Music
 
-**Void-Music** is a full-stack music streaming web application built using **PHP**, **MySQL**, **HTML**, **CSS**, **Bootstrap**, **JavaScript**, and **jQuery**. It allows users to register, log in, upload songs, explore music libraries, manage playlists, like songs, and more.:contentReference[oaicite:2]{index=2}
-
----
-
-## 🎵 Features
-
-- 🎧 User registration and authentication  
-- 📁 Music upload and management  
-- 🎶 Browse songs and playlists  
-- ❤️ Like and favorite songs  
-- 📜 Profile management  
-- 🔍 Search and explore functionality  
-- 🗂 Admin panel for approving and managing content
+Void Music is a PHP-based music streaming web application created as an academic project during the fourth semester of engineering. It allows users to register, browse songs, create playlists, like music, upload songs, and manage their profiles. The project uses a combination of frontend and backend technologies to deliver a complete music portal experience with user authentication and dynamic content.
 
 ---
 
-## 🚀 Technologies Used
+## Features
 
-- **Frontend:** HTML5, CSS3, Bootstrap 5, JavaScript, jQuery  
-- **Backend:** PHP  
-- **Database:** MySQL  
-- **Server:** Apache / XAMPP / WAMP
-
----
-
-## 📁 Project Structure
-
-Void-Music/
-│
-├── admin/ # Admin dashboard & content approval
-├── includes/ # Shared includes (header, footer, DB connect)
-├── jquery/ # jQuery library files
-├── palette/ # Themes / styles (if any)
-├── *.php # Core PHP pages (login, register, music, playlists)
-├── *.css # Styling files
-├── *.js # JavaScript scripts
-├── README.md # Project documentation
-└── database/ # SQL dump or database schema (if included)
-
-yaml
-Copy code
+- User registration and login  
+- Browse all available songs  
+- Like and favorite songs  
+- Create and manage personal playlists  
+- Upload new songs  
+- Dynamic user profile pages  
+- Music search functionality  
+- Admin interface for song approval and message handling  
 
 ---
 
-## 🛠 Setup & Installation
+## Technology Stack
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/SOHAM-THUMMAR/Void-Music.git
-Import the database:
+This project uses the following technologies:
 
-Open phpMyAdmin
+- PHP for server-side logic  
+- MySQL for database storage  
+- HTML and CSS for structure and styling  
+- Bootstrap for responsive layout  
+- JavaScript and jQuery for frontend interactivity  
+- AJAX for real-time updates without page reloads  
 
-Create a database (e.g., void_music)
+---
 
-Import the provided SQL file
+## Folder Structure
 
-Configure database connection:
+```
+/
+├── includes/                  # PHP include files and helpers
+├── jquery/                   # jQuery library files
+├── palette/                  # Custom palettes or assets
+├── admin.php                 # Admin dashboard
+├── index.php                 # Homepage
+├── login.php                 # User login page
+├── register.php              # User signup page
+├── music.php                 # Music display and streaming
+├── playlist.php              # Playlist view
+├── profile.php               # User profile
+├── upload_song.php           # Upload form and logic
+├── contact.php               # Contact form page
+├── settings.php              # User settings page
+└── other utility scripts     # Including AJAX handlers and form processors
+```
 
-Update database credentials (DB_HOST, DB_USER, DB_PASS, DB_NAME) in the config file
+---
 
-Run the application:
+## Setup Instructions
 
-Start your web server (XAMPP / WAMP)
+1. Clone the repository:
+```bash
+git clone https://github.com/SOHAM-THUMMAR/Void-Music.git
+cd Void-Music
+```
 
-Navigate to http://localhost/Void-Music in your browser
+2. Configure a local web server (XAMPP, WAMP, or similar) with PHP and MySQL.
 
-📌 Usage
-🎵 Users can register and log in
+3. Create a database in MySQL and import the provided SQL schema (if available).
 
-📂 After login, browse songs and playlists
+4. Update database credentials in the PHP config file.
 
-❤️ Like, favorite, and manage your music
+5. Start your web server and navigate to localhost in your browser.
 
-👤 Edit profile and update account settings
+6. Register a new account or use existing credentials to log in.
 
-📝 Notes
-This project was built as a semester or learning project to explore full-stack web development using PHP and MySQL.
+---
+
+## How It Works
+
+- Users register and log in through secure forms.  
+- Once logged in, they can browse through available music.  
+- Songs can be liked or added to user playlists.  
+- Users can upload their own music files.  
+- Admin panel handles pending song approvals and user messages.
+
+---
+
+## Future Improvements
+
+- Add real audio streaming (with caching)  
+- Implement user roles with better permissions  
+- Add social sharing  
+- Improve UI responsiveness  
+- Add AJAX-powered infinite scroll for music lists  
+- Integrate search filters by genre and artist  
+
+---
+
+## Contributing
+
+To contribute:
+
+1. Fork the repository  
+2. Create a feature branch:
+```bash
+git checkout -b feature-name
+```
+3. Commit your changes:
+```bash
+git commit -m "Add some feature"
+```
+4. Push the branch and open a pull request.
